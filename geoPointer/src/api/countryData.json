@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": 125800000,
+      "famousSport": "Sumo Wrestling",
+      "interestingFact": "Japan has more than 5 million vending machines, selling everything."
+    },
+    {
+      "id": 2,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 214300000,
+      "famousSport": "Football",
+      "interestingFact": "Home to the Amazon Rainforest, which produces 20% of the world’s oxygen."
+    },
+    {
+      "id": 3,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1428000000,
+      "famousSport": "Cricket",
+      "interestingFact": "India has the world's largest postal network with over 150,000 post offices."
+    },
+    {
+      "id": 4,
+      "countryName": "Canada",
+      "capital": "Ottawa",
+      "population": 39000000,
+      "famousSport": "Ice Hockey",
+      "interestingFact": "Canada has more lakes than the rest of the world combined."
+    },
+    {
+      "id": 5,
+      "countryName": "Egypt",
+      "capital": "Cairo",
+      "population": 109300000,
+      "famousSport": "Football",
+      "interestingFact": "The Great Pyramid of Giza is one of the Seven Wonders of the Ancient World still in existence."
+    },
+    {
+      "id": 6,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": 26000000,
+      "famousSport": "Cricket",
+      "interestingFact": "Australia is home to more kangaroos than humans."
+    },
+    {
+      "id": 7,
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": 83000000,
+      "famousSport": "Football",
+      "interestingFact": "Germany is home to the world’s largest beer festival, Oktoberfest."
+    },
+    {
+      "id": 8,
+      "countryName": "South Korea",
+      "capital": "Seoul",
+      "population": 52000000,
+      "famousSport": "Taekwondo",
+      "interestingFact": "South Korea has one of the fastest internet speeds in the world."
+    },
+    {
+      "id": 9,
+      "countryName": "France",
+      "capital": "Paris",
+      "population": 68000000,
+      "famousSport": "Football",
+      "interestingFact": "France is the most visited country in the world by tourists."
+    },
+    {
+      "id": 10,
+      "countryName": "New Zealand",
+      "capital": "Wellington",
+      "population": 5100000,
+      "famousSport": "Rugby",
+      "interestingFact": "There are more sheep than people in New Zealand — nearly 5 to 1!"
+    }
+  ]
+  
