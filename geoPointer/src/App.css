@@ -240,7 +240,7 @@ nav ul {
 }
 
 .card {
-  max-width: 55rem;
+  max-width: 30rem;
   border: 0;
   width: 100%;
   margin-inline: auto;
@@ -252,7 +252,7 @@ nav ul {
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   background-clip: padding-box;
   border-radius: 45px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .bg-green-box,
@@ -296,18 +296,25 @@ nav ul {
   font-weight: 600;
   color: white;
   letter-spacing: -0.02em;
-  line-height: 40px;
+  line-height: 30px;
   font-style: normal;
-  font-size: 28px;
-  padding-bottom: 8px;
+  font-size: 20px;
+  padding-bottom: 4px;
 }
 
 .card-description {
   font-weight: 600;
-  line-height: 23px;
+  line-height: 18px;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
-  max-width: 400px;
+  font-size: 12px;
+  max-width: 200px;
+}
+
+.card-details {
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+  letter-spacing: -0.02em;
 }
 
 /* footer CSS  */
@@ -391,20 +398,21 @@ country Card
 ------------------ */
 
 .country-card {
-  margin-top: 3.2rem;
+  margin-top: 1.6rem;
+  flex: 1 1 calc(25% - 1rem);
 }
 .country-section {
-  margin: 6.4rem auto 9.6rem auto;
+  margin: 3.4rem auto 5.6rem auto;
   & .grid {
-    gap: 3.2rem;
-    max-width: 132rem;
+    gap: 2.0rem;
+    max-width: 90rem;
     margin: auto;
   }
 
   & img {
     width: 100%;
-    max-width: 50rem;
-    height: 16rem;
+    max-width: 35rem;
+    height: 11rem;
   }
 }
 
@@ -549,19 +557,19 @@ contact us page
 contact us Page ends here 
 --------------------- */
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1250px) {
   .grid-four-cols {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 880px) {
   .grid-four-cols {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 780px) {
   .grid-four-cols,
   .grid-three-cols,
   .grid-two-cols {
@@ -576,18 +584,23 @@ contact us Page ends here
 /* //Loader  */
 /* HTML: <div class="loader"></div> */
 .loader {
-  width: 50px;
-  padding: 8px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: #25b09b;
-  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
-  -webkit-mask: var(--_m);
-  mask: var(--_m);
-  -webkit-mask-composite: source-out;
-  mask-composite: subtract;
-  animation: l3 1s infinite linear;
+  width: 124px;
+  height: 24px;
+  -webkit-mask: 
+    conic-gradient(from 135deg at top   ,#0000,#000 .5deg 90deg,#0000 90.5deg) 0 0   ,
+    conic-gradient(from -45deg at bottom,#0000,#000 .5deg 90deg,#0000 90.5deg) 0 100%;
+  -webkit-mask-size:25% 50%;
+  -webkit-mask-repeat:repeat-x;
+  background: linear-gradient(#25b09b 0 0) left/0% 100% no-repeat #ddd;
+  animation: l13 2s infinite linear;
 }
+@keyframes l13 {
+  100% {background-size: 100% 100%}
+}
+  @keyframes l4 {
+      100% {background-size:120%}
+  }
+
 @keyframes l3 {
   to {
     transform: rotate(1turn);

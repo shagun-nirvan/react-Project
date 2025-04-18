@@ -9,6 +9,7 @@ import { About } from './components/About'
 import { Country } from './components/Country'
 import { Contact } from './components/Contact'
 import { ErrorPage } from './components/ErrorPage'
+import {CountryDetails} from './components2/Layout/CountryDetails'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
   path:"country",
   element: <Country />,
   },
+  {
+     //  "/" use karne k baad jab : use karte hai to then it is known as dynamic root 
+    path:"country/:id",       
+    element: <CountryDetails />,
+    },
   {
     path:"contact",
     element: <Contact />,
