@@ -74,7 +74,7 @@ export const CountryDetails = () => {
                       .map((key) => country.currencies[key]?.name)
                       .join(", ")
                   : "N/A"}
-              </p>
+              </p> 
 
               <p>
                 <span className="card-description">Languages:</span>{" "}
